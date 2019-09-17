@@ -15,7 +15,7 @@ int main() {
     printf("The function has started.\n");
 
     while ((totalT = time(NULL) - startT) < secs) {
-        for (int i = 0 ; str[i] != '\0'; i++) {
+        for (int i = 0; str[i] != '\0'; i++) {
             fputc(str[i], fptr);
         }
     }
