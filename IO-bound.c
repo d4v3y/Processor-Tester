@@ -3,6 +3,7 @@
 
 int main() {
 
+    int i;
     int totalT;
     FILE *fptr;
     char str[] = "I am writing to the file!\n";
@@ -15,10 +16,12 @@ int main() {
     printf("The function has started.\n");
 
     while ((totalT = time(NULL) - startT) < secs) {
-        for (int i = 0; str[i] != '\0'; i++) {
+        for (i = 0; str[i] != '\0'; i++) {
             fputc(str[i], fptr);
         }
     }
+
+    printf("The function has stopped.\n");
 
     fclose(fptr);
 

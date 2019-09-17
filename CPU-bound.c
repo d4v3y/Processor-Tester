@@ -5,7 +5,7 @@ int main() {
 
     int totalT;
     long increment = 0;
-    time_t secs = 60;
+    time_t secs = 300;
     time_t startT = time(NULL);
 
     printf("The fuction has started.\n");
