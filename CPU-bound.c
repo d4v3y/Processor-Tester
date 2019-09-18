@@ -1,3 +1,14 @@
+/***********************************
+ *                                 *
+ *         Davey Anguiano          *
+ *            CS 240               *
+ *     Homework #1 (CPU-bound)     *
+ *         Sept 12, 2019           *
+ *                                 *
+ *          CPU-bound.c            *
+ *                                 *
+ ***********************************/
+
 #include <stdio.h>
 #include <time.h>
 
@@ -15,8 +26,6 @@ int main() {
     }
 
     printf("The function has stopped.\n");
-    // printf("The function took %d seconds and ", totalT);
-    // printf("iterated %ld times.\n", increment);
 
     return 0;
 }

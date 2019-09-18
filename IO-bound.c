@@ -1,3 +1,14 @@
+/***********************************
+ *                                 *
+ *         Davey Anguiano          *
+ *            CS 240               *
+ *     Homework #1 (IO-bound)      *
+ *         Sept 12, 2019           *
+ *                                 *
+ *           IO-bound.c            *
+ *                                 *
+ ***********************************/
+
 #include <stdio.h>
 #include <time.h>
 
