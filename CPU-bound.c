@@ -1,14 +1,3 @@
-/***********************************
- *                                 *
- *         Davey Anguiano          *
- *            CS 240               *
- *     Homework #1 (CPU-bound)     *
- *         Sept 12, 2019           *
- *                                 *
- *          CPU-bound.c            *
- *                                 *
- ***********************************/
-
 #include <stdio.h>
 #include <time.h>
 
