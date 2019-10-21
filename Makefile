@@ -1,14 +1,3 @@
-# /***********************************
-# *                                 *
-# *         Davey Anguiano          *
-# *            CS 240               *
-# *     Homework #1 (Makefile)      *
-# *         Sept 12, 2019           *
-# *                                 *
-# *            Makefile             *
-# *                                 *
-# ***********************************/
-
 all: IO-bound CPU-bound
 
 CPU-bound:
